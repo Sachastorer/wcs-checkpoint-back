@@ -1,12 +1,18 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 class Country {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ default: 1 })
-  votes: number;
+  @Column({unique: true})
+  code: string;
+
+  @Column()
+  name: string;
+
+  @Column()
+  emoji: string;
 }
 
 export default Country;
