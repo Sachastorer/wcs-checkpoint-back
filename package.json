@@ -1,0 +1,29 @@
+{
+  "name": "wcs-checkpoint-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachastorer/wcs-checkpoint-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sachastorer/wcs-checkpoint-back/issues"
+  },
+  "homepage": "https://github.com/Sachastorer/wcs-checkpoint-back#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "class-validator": "^0.14.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.4",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.12"
+  }
+}
